@@ -1,0 +1,7 @@
+<div class="background-one">
+  <div class="link-container">
+    <a [ngClass]="user.class" *ngFor="let user of users" [routerLink]="user.id">{{
+      user.username
+    }}</a>
+  </div>
+</div>
