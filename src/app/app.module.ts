@@ -7,9 +7,10 @@ import { CustomerListComponent } from './customer-list/customer-list.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { UsersService } from './customer-list/users.service';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
-  declarations: [AppComponent, CustomerComponent, CustomerListComponent],
+  declarations: [AppComponent, CustomerComponent, CustomerListComponent, PageNotFoundComponent],
   imports: [BrowserModule, AppRoutingModule, RouterModule],
   providers: [UsersService],
   bootstrap: [AppComponent],
